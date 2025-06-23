@@ -87,9 +87,32 @@ table tr:nth-child(even){
   padding: 11px 1em;
   font-family: helvetica;
 }
+.addTeachers{
+  color: white;
+  background-color:#0080ff;
+  position: relative;
+}
+.dropDown{
+  position:absolute;
+  
+}
+.dropDown{
+  padding: 10px 1.5em;
+  background-color: #152259;
+  border: none;
+  border-radius: 6px;
+}
+.dropDown::placeholder{
+  color: white;
+  font-family: georgia;
+}
+.addTeachers:hover.dropDown{
+  
+}
+
 .top-button>div>img{
   bottom: 0;
-  top:5px;
+  top: 5px;
   position: relative;
 }
 .search-here{
@@ -97,10 +120,10 @@ table tr:nth-child(even){
   padding-bottom: 6px; 
 }
 .search-here>input{
-  padding: 12px 560px 10px 40px;
+  padding: 12px 550px 10px 40px;
   border: none;
   border-radius:7px;
-  background-color: rgb(247, 244, 244);
+  background-color: #C4C4C4;
 }
 
 .search-here>input::placeholder{
@@ -112,3 +135,6 @@ table tr:nth-child(even){
   background-color: transparent;
   padding: 4px;
 }
+/* .search-here>button:hover{
+  background-color: blue;
+} */
